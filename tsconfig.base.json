@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.spec.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@common": ["packages/common/src"]
+    }
+  },
+  "files": [],
+  "references": [
+    {
+      "path": "./packages/common"
+    }
+  ]
+}
